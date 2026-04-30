@@ -8,12 +8,6 @@
   </url>
 
   <!-- Proyek & Kategori -->
-  <url><loc>https://mister-rdanm19.github.io/INDONESIA-GELAP/</loc><priority>0.80</priority></url>
-  <url><loc>https://mister-rdanm19.github.io/ILMU-ILMU-PENGETAHUAN/</loc><priority>0.80</priority></url>
-  <url><loc>https://mister-rdanm19.github.io/PerjalananN3i/</loc><priority>0.80</priority></url>
-  <url><loc>https://mister-rdanm19.github.io/PerjalananKu/</loc><priority>0.80</priority></url>
-  <url><loc>https://mister-rdanm19.github.io/ayo-belajar-program/</loc><priority>0.80</priority></url>
-  <url><loc>https://mister-rdanm19.github.io/SejarahKOTABOGOR/</loc><priority>0.80</priority></url>
   <url><loc>https://mister-rdanm19.github.io/ALL-NEWS/</loc><priority>0.80</priority></url>
   <url><loc>https://mister-rdanm19.github.io/ALL-NEWS/Nasional/kecelakaan-kereta-bekasi-timur-2026.html</loc><priority>0.80</priority></url>
   <url><loc>https://mister-rdanm19.github.io/ALL-NEWS/Nasional/dampak-regulasi-digital.html</loc><priority>0.80</priority></url>
@@ -27,6 +21,12 @@
   <url><loc>https://mister-rdanm19.github.io/ALL-NEWS/Keamanan-Siber/keamanan-cyber-1.html</loc><priority>0.80</priority></url>
   <url><loc>https://mister-rdanm19.github.io/ALL-NEWS/Keamanan-Siber/keamanan-cyber-2.html</loc><priority>0.80</priority></url>
   <url><loc>https://mister-rdanm19.github.io/ALL-NEWS/Keamanan-Siber/keamanan-cyber-3.html</loc><priority>0.80</priority></url>
+  <url><loc>https://mister-rdanm19.github.io/INDONESIA-GELAP/</loc><priority>0.80</priority></url>
+  <url><loc>https://mister-rdanm19.github.io/ILMU-ILMU-PENGETAHUAN/</loc><priority>0.80</priority></url>
+  <url><loc>https://mister-rdanm19.github.io/PerjalananN3i/</loc><priority>0.80</priority></url>
+  <url><loc>https://mister-rdanm19.github.io/PerjalananKu/</loc><priority>0.80</priority></url>
+  <url><loc>https://mister-rdanm19.github.io/ayo-belajar-program/</loc><priority>0.80</priority></url>
+  <url><loc>https://mister-rdanm19.github.io/SejarahKOTABOGOR/</loc><priority>0.80</priority></url>
   <url><loc>https://mister-rdanm19.github.io/Custom.Captcha-Library/</loc><priority>0.80</priority></url>
   <url><loc>https://mister-rdanm19.github.io/Image.Converter/</loc><priority>0.80</priority></url>
   <url><loc>https://mister-rdanm19.github.io/UEP.WebBased/</loc><priority>0.80</priority></url>
