@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr.Rm19 - News & Technology Portal</title>
+    <style>
+        :root {
+            --gold: #bf953f;
+            --gold-gradient: linear-gradient(45deg, #bf953f, #fcf6ba, #b38728);
+            --dark-bg: #0d1117;
+            --card-bg: #161b22;
+            --text-main: #f0f6fc;
+            --text-dim: #8b949e;
+        }
+
+        body {
+            background-color: var(--dark-bg);
+            color: var(--text-main);
+            font-family: 'Segoe UI', Tahoma, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigasi ala WordPress */
+        nav {
+            background: #010409;
+            border-bottom: 2px solid var(--gold);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            background: var(--gold-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: none;
+        }
+
+        .nav-links a {
+            color: var(--text-main);
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 0.9rem;
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover { color: var(--gold); }
+
+        /* Header Berita */
+        header {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+            text-align: left;
+        }
+
+        .trending-bar {
+            background: #1c2128;
+            padding: 10px 20px;
+            border-left: 4px solid var(--gold);
+            margin-bottom: 30px;
+            font-size: 0.8rem;
+        }
+
+        /* Layout Utama */
+        .main-layout {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            gap: 30px;
+            padding: 0 20px;
+        }
+
+        /* Kolom Artikel (Kategori) */
+        .content-area { flex: 3; }
+
+        .section-title {
+            border-bottom: 2px solid #30363d;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .news-card {
+            background: var(--card-bg);
+            border-radius: 8px;
+            border: 1px solid #30363d;
+            overflow: hidden;
+            transition: 0.3s;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .news-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--gold);
+        }
+
+        .news-info { padding: 15px; }
+        .news-info span { color: var(--gold); font-size: 0.7rem; font-weight: bold; text-transform: uppercase; }
+        .news-info h3 { margin: 10px 0; font-size: 1.1rem; color: #fff; }
+        .news-info p { font-size: 0.85rem; color: var(--text-dim); line-height: 1.4; }
+
+        /* Sidebar */
+        aside { flex: 1; }
+        .sidebar-box {
+            background: #1c2128;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+
+        .sidebar-box h4 {
+            margin-top: 0;
+            color: var(--gold);
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 10px;
+        }
+
+        footer {
+            background: #010409;
+            padding: 50px 20px;
+            margin-top: 60px;
+            text-align: center;
+            border-top: 1px solid #30363d;
+        }
+
+        @media (max-width: 900px) {
+            .main-layout { flex-direction: column; }
+            aside { order: 2; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="nav-container">
+        <a href="#" class="logo">Mr.Rm19 Official Website</a>
+        <div class="nav-links">
+            <a href="https://mister-rdanm19.github.io/">Beranda</a>
+            <a href="https://github.com/Mister-RdanM19?tab=repositories">Tools</a>
+            <a href="https://github.com/Mister-RdanM19">Kontak</a>
+        </div>
+    </div>
+</nav>
+
+<header>
+    <div class="trending-bar">
+        <strong style="color: var(--gold);">TRENDING:</strong> Ekplorasi 39 Project Digital Terbaru dan Inovasi Web Tools 2026 by Mr.Rm19
+    </div>
+</header>
+
+<div class="main-layout">
+    <div class="content-area">
+        <div class="section-title">
+            <h2 style="margin:0;">LATEST PROJECTS</h2>
+            <small style="color:var(--text-dim);">Daftar Lengkap 39 Kategori Teknologi</small>
+        </div>
+
+        <div class="category-grid">
+            <!-- BARIS 1 -->
+            <a href="https://mister-rdanm19.github.io/INDONESIA-GELAP/" class="news-card">
+                <div class="news-info">
+                    <span>Dokumentasi</span>
+                    <h3>INDONESIA-GELAP</h3>
+                    <p>Sebuah buku interaktif berbasis web yang menganalisis pemetaan literasi digital nasional, isu sosial, ekonomi, dan tantangan generasi masa depan di Indonesia.</p>
+                </div>
+            </a>
+			
+			
+			   <!-- BARIS 2 -->
+            <a href="https://mister-rdanm19.github.io/ILMU-ILMU-PENGETAHUAN/" class="news-card">
+                <div class="news-info">
+                    <span>Edukasi</span>
+                    <h3>Perpustakaan Ilmu Pengetahuan</h3>
+                    <p>Platform edukasi digital mandiri yang mengintegrasikan berbagai disiplin ilmu pengetahuan umum, sains, dan teknologi dalam satu database yang mudah diakses.</p>
+                </div>
+            </a>
+			
+				      <a href="https://mister-rdanm19.github.io/PerjalananKu/" class="news-card">
+                <div class="news-info">
+                    <span>Journal</span>
+                    <h3>Perjalanan Ku Journal</h3>
+                    <p>Catatan harian mengenai refleksi hidup, filosofi personal, dan pengalaman sehari-hari yang dikemas dalam antarmuka tulisan yang nyaman dibaca.</p>
+                </div>
+            </a>
+			
+			
+			<a href="https://mister-rdanm19.github.io/ayo-belajar-program/" class="news-card">
+                <div class="news-info">
+                    <span>Tutorial</span>
+                    <h3>Belajar Pemrograman</h3>
+                    <p>Pusat tutorial coding bagi pemula, membahas dasar-dasar HTML, CSS, JavaScript, hingga pengembangan aplikasi web modern secara sistematis.</p>
+                </div>
+            </a>	
+				
+				        <!-- BARIS 8 -->
+            <a href="https://mister-rdanm19.github.io/PerjalananN3i/" class="news-card">
+                <div class="news-info">
+                    <span>Journal</span>
+                    <h3>Log Perjalanan N3i</h3>
+                    <p>Dokumentasi perjalanan pribadi yang disusun secara kronologis, mencakup pengalaman berharga, tips perjalanan, dan memori yang diabadikan secara digital.</p>
+                </div>
+            </a>
+			
+			
+            <a href="https://mister-rdanm19.github.io/Custom.Captcha-Library/" class="news-card">
+                <div class="news-info">
+                    <span>Security</span>
+                    <h3>Custom Captcha Library</h3>
+                    <p>Solusi keamanan verifikasi manusia yang interaktif dan unik. Dirancang ringan untuk mencegah serangan bot pada formulir web tanpa mengganggu kenyamanan pengguna.</p>
+                </div>
+            </a>
+
+            <a href="https://mister-rdanm19.github.io/Image.Converter/" class="news-card">
+                <div class="news-info">
+                    <span>Web Tool</span>
+                    <h3>Professional Image Converter</h3>
+                    <p>Alat konversi format gambar instan yang mendukung berbagai ekstensi seperti PNG, JPG, dan WebP. Proses dilakukan secara lokal di browser demi menjaga privasi data.</p>
+                </div>
+            </a>
+
+            <a href="https://mister-rdanm19.github.io/UEP.WebBased/" class="news-card">
+                <div class="news-info">
+                    <span>Utility</span>
+                    <h3>UEP WebBased Extension</h3>
+                    <p>Utility pengubah ekstensi file profesional yang memungkinkan pengguna mengganti format dokumen secara massal dengan antarmuka yang bersih dan kecepatan tinggi.</p>
+                </div>
+            </a>
+
+         
+
+            <a href="https://mister-rdanm19.github.io/Ucapan-LEBARAN/" class="news-card">
+                <div class="news-info">
+                    <span>Static Web</span>
+                    <h3>Koleksi Ucapan LEBARAN</h3>
+                    <p>Menampilkan 20 desain halaman web statis yang kreatif untuk perayaan hari kemenangan, lengkap dengan animasi modern dan tata letak yang elegan.</p>
+                </div>
+            </a>
+
+            <a href="https://mister-rdanm19.github.io/Sejarah-Agama-ISLAM/" class="news-card">
+                <div class="news-info">
+                    <span>Religi</span>
+                    <h3>Ensiklopedi Sejarah ISLAM</h3>
+                    <p>Buku digital interaktif yang merangkum perjalanan panjang peradaban Islam, tokoh penting, dan sejarah perkembangan ilmu pengetahuan di dunia Muslim.</p>
+                </div>
+            </a>
+
+            <a href="https://mister-rdanm19.github.io/Kompas.KIBLAT/" class="news-card">
+                <div class="news-info">
+                    <span>Application</span>
+                    <h3>Aplikasi Kompas KIBLAT</h3>
+                    <p>Penentu arah kiblat akurat menggunakan teknologi GPS dan sensor perangkat. Dibangun sebagai Progressive Web App (PWA) agar bisa digunakan di berbagai platform.</p>
+                </div>
+            </a>
+
+            <!-- BARIS 3 -->
+            <a href="https://mister-rdanm19.github.io/Master-Automotive-Database/" class="news-card">
+                <div class="news-info">
+                    <span>Database</span>
+                    <h3>Automotive Master Database</h3>
+                    <p>Portal referensi data spesifikasi teknis otomotif terlengkap yang mencakup detail mesin, fitur, dan perkembangan teknologi kendaraan modern terkini.</p>
+                </div>
+            </a>
+
+            <a href="https://mister-rdanm19.github.io/Script-ULANGTAHUN/" class="news-card">
+                <div class="news-info">
+                    <span>Creative</span>
+                    <h3>Interaktif Script Ulang Tahun</h3>
+                    <p>Kumpulan kode HTML dan CSS interaktif untuk menciptakan kejutan ulang tahun digital yang unik, personal, dan penuh dengan efek visual yang menarik.</p>
+                </div>
+            </a>
+
+            <a href="https://mister-rdanm19.github.io/404-Universe/" class="news-card">
+                <div class="news-info">
+                    <span>UI/UX</span>
+                    <h3>404 Universe Design</h3>
+                    <p>Eksplorasi kreatif desain halaman error 404. Memberikan inspirasi bagaimana mengubah pengalaman buruk pengguna menjadi interaksi yang artistik dan informatif.</p>
+                </div>
+            </a>
+
+            <a href="https://mister-rdanm19.github.io/ALL-GAMES/" class="news-card">
+                <div class="news-info">
+                    <span>Gaming</span>
+                    <h3>ALL-GAMES Hub</h3>
+                    <p>Pusat platform kumpulan game berbasis web (HTML5) yang ringan dan menghibur, dikumpulkan dalam satu antarmuka dashboard yang rapi dan responsif.</p>
+                </div>
+            </a>
+
+            <!-- BARIS 4 -->
+            <a href="https://mister-rdanm19.github.io/U.ListCLEANER/" class="news-card">
+                <div class="news-info">
+                    <span>Automation</span>
+                    <h3>U.List CLEANER Pro</h3>
+                    <p>Alat otomatisasi canggih untuk membersihkan, memfilter, dan merapikan daftar URL massal. Sangat berguna bagi praktisi SEO dan pengembang data.</p>
+                </div>
+            </a>
+
+            <a href="https://mister-rdanm19.github.io/Domain.Extractor/" class="news-card">
+                <div class="news-info">
+                    <span>Scraper</span>
+                    <h3>Advanced Domain Extractor</h3>
+                    <p>Software ekstraksi domain dari tumpukan teks mentah dengan algoritma pemrosesan cepat, mendukung filter TLD dan penghapusan duplikasi data secara otomatis.</p>
+                </div>
+            </a>
+
+            <a href="https://mister-rdanm19.github.io/ChessONLINE/" class="news-card">
+                <div class="news-info">
+                    <span>Entertainment</span>
+                    <h3>Modern Chess ONLINE</h3>
+                    <p>Platform catur multiplayer berbasis web yang menggunakan Firebase untuk sinkronisasi real-time dan integrasi mesin Stockfish untuk tingkat kesulitan AI.</p>
+                </div>
+            </a>
+
+            <a href="https://mister-rdanm19.github.io/SM.PANEL/" class="news-card">
+                <div class="news-info">
+                    <span>Social Media</span>
+                    <h3>Social Media Panel UI</h3>
+                    <p>Sistem manajemen dashboard untuk optimasi sosial media yang dirancang dengan antarmuka profesional untuk mempermudah monitoring pertumbuhan akun.</p>
+                </div>
+            </a>
+
+            <!-- BARIS 5 -->
+            <a href="https://mister-rdanm19.github.io/KONTER-PULSA/" class="news-card">
+                <div class="news-info">
+                    <span>Management</span>
+                    <h3>Aplikasi KONTER PULSA</h3>
+                    <p>Dashboard kasir digital sederhana untuk memanajemen transaksi penjualan pulsa, paket data, dan pembayaran tagihan dengan pencatatan yang terstruktur.</p>
+                </div>
+            </a>
+
+            <a href="https://mister-rdanm19.github.io/WanitaKUAT/" class="news-card">
+                <div class="news-info">
+                    <span>Inspirasi</span>
+                    <h3>Dokumentasi Wanita KUAT</h3>
+                    <p>Halaman web apresiasi yang merangkum cerita dan profil sosok-sosok wanita inspiratif yang memberikan dampak positif bagi lingkungan dan komunitas sekitarnya.</p>
+                </div>
+            </a>
+
+            <a href="https://mister-rdanm19.github.io/SmartExam/" class="news-card">
+                <div class="news-info">
+                    <span>Education</span>
+                    <h3>SmartExam System</h3>
+                    <p>Sistem ujian berbasis web (CBT) yang terintegrasi, memudahkan guru dan institusi dalam melakukan evaluasi belajar online secara aman dan efektif.</p>
+                </div>
+            </a>
+
+            <a href="https://mister-rdanm19.github.io/Test.IQV2/" class="news-card">
+                <div class="news-info">
+                    <span>Psychology</span>
+                    <h3>Interactive Test IQ V2</h3>
+                    <p>Alat ukur kecerdasan kognitif versi terbaru dengan algoritma penilaian yang diperbarui dan beragam soal logika visual yang menantang pikiran.</p>
+                </div>
+            </a>
+
+            <!-- BARIS 6 -->
+            <a href="https://mister-rdanm19.github.io/OurSpace/" class="news-card">
+                <div class="news-info">
+                    <span>Social</span>
+                    <h3>OurSpace Community App</h3>
+                    <p>Aplikasi percakapan dan berbagi file khusus yang dirancang untuk komunitas terbatas dengan mengutamakan privasi dan kecepatan pertukaran data.</p>
+                </div>
+            </a>
+
+            <a href="https://mister-rdanm19.github.io/Cert_Maker/" class="news-card">
+                <div class="news-info">
+                    <span>Graphics</span>
+                    <h3>Cert Maker Pro</h3>
+                    <p>Generator sertifikat otomatis yang memungkinkan pembuatan ratusan dokumen dalam hitungan detik berdasarkan template dan database nama yang diinput.</p>
+                </div>
+            </a>
+
+            <a href="https://mister-rdanm19.github.io/Test.IQ/" class="news-card">
+                <div class="news-info">
+                    <span>Psychology</span>
+                    <h3>Original Test IQ Platform</h3>
+                    <p>Versi orisinal dari platform tes IQ interaktif kami yang telah membantu banyak pengguna dalam mengidentifikasi potensi dasar kecerdasan mereka.</p>
+                </div>
+            </a>
+
+            <a href="https://mister-rdanm19.github.io/SejarahKOTABOGOR/" class="news-card">
+                <div class="news-info">
+                    <span>History</span>
+                    <h3>Portal Sejarah Bogor</h3>
+                    <p>Eksplorasi mendalam mengenai warisan sejarah, budaya, dan transformasi kota Bogor dari masa kolonial hingga menjadi kota modern seperti sekarang.</p>
+                </div>
+            </a>
+
+            <!-- BARIS 7 -->
+            <a href="https://mister-rdanm19.github.io/GALAXY/" class="news-card">
+                <div class="news-info">
+                    <span>Science</span>
+                    <h3>GALAXY Astronomy Edu</h3>
+                    <p>Media pembelajaran sains interaktif yang membawa pengguna menjelajahi misteri tata surya, bintang, dan fenomena alam semesta yang menakjubkan.</p>
+                </div>
+            </a>
+
+         
+
+            <a href="https://mister-rdanm19.github.io/HadistONLINE/" class="news-card">
+                <div class="news-info">
+                    <span>Religi</span>
+                    <h3>Hadist ONLINE Digital</h3>
+                    <p>Perpustakaan digital yang menyediakan akses mudah ke ribuan hadist sahih, dirancang untuk memudahkan umat Muslim dalam mempelajari tuntunan agama.</p>
+                </div>
+            </a>
+
+            <a href="https://mister-rdanm19.github.io/JajananGeneratorz/" class="news-card">
+                <div class="news-info">
+                    <span>Creative</span>
+                    <h3>Jajanan Content Generator</h3>
+                    <p>Generator konten kreatif untuk para pecinta kuliner, membantu membuat ulasan dan publikasi menarik seputar dunia jajanan tradisional dan modern.</p>
+                </div>
+            </a>
+
+    
+
+      
+
+            <a href="https://mister-rdanm19.github.io/DiaryN3i/" class="news-card">
+                <div class="news-info">
+                    <span>Privacy</span>
+                    <h3>Diary N3i Secure</h3>
+                    <p>Platform curahan hati digital yang dilengkapi dengan fitur keamanan privasi, memastikan setiap tulisan tersimpan aman hanya untuk akses pribadi.</p>
+                </div>
+            </a>
+
+            <a href="https://mister-rdanm19.github.io/HariULANGTAHUN_KU/" class="news-card">
+                <div class="news-info">
+                    <span>Event</span>
+                    <h3>Momen Ultah Hub</h3>
+                    <p>Halaman khusus yang didedikasikan untuk merayakan momen ulang tahun personal, menampilkan galeri foto dan ucapan berkesan dalam satu wadah.</p>
+                </div>
+            </a>
+
+            <!-- BARIS 9 -->
+            <a href="https://mister-rdanm19.github.io/AIM/" class="news-card">
+                <div class="news-info">
+                    <span>Ibadah</span>
+                    <h3>AIM Ibadah Assistant</h3>
+                    <p>Aplikasi pendamping ibadah harian yang membantu pengguna dalam menjaga kedisiplinan jadwal ibadah dan target spiritual harian secara terukur.</p>
+                </div>
+            </a>
+
+            <a href="https://mister-rdanm19.github.io/Local-File-Viewer/" class="news-card">
+                <div class="news-info">
+                    <span>Utility</span>
+                    <h3>Advanced File Viewer</h3>
+                    <p>Aplikasi berbasis web untuk membuka dan melihat isi file lokal secara cepat tanpa memerlukan instalasi software tambahan, praktis dan efisien.</p>
+                </div>
+            </a>
+
+            <a href="https://mister-rdanm19.github.io/Psychological-TEST/" class="news-card">
+                <div class="news-info">
+                    <span>Psychology</span>
+                    <h3>Psychological Test Center</h3>
+                    <p>Koleksi berbagai tes mental dan psikologi untuk membantu pengguna memahami kepribadian, minat bakat, dan kondisi kesehatan mental mereka.</p>
+                </div>
+            </a>
+
+            <a href="https://mister-rdanm19.github.io/Notepad-WEB/" class="news-card">
+                <div class="news-info">
+                    <span>Office</span>
+                    <h3>Cloud Notepad WEB</h3>
+                    <p>Aplikasi pengolah teks sederhana yang dapat diakses dari mana saja. Cocok untuk mencatat ide cepat dengan fitur penyimpanan otomatis di browser.</p>
+                </div>
+            </a>
+
+            <!-- BARIS 10 -->
+            <a href="https://mister-rdanm19.github.io/CV-MAKER/" class="news-card">
+                <div class="news-info">
+                    <span>Career</span>
+                    <h3>Professional CV MAKER</h3>
+                    <p>Generator curriculum vitae otomatis dengan berbagai template modern yang siap pakai, membantu Anda membangun profil profesional untuk dunia kerja.</p>
+                </div>
+            </a>
+
+            
+
+            
+
+        </div>
+    </div>
+
+    <aside>
+
+
+        <div class="sidebar-box">
+    <h4>TENTANG Mr.Rm19</h4>
+    <p style="font-size:0.85rem; color:var(--text-dim); line-height: 1.6; text-align: justify;">
+        <strong>Mr.Rm19 Official Website</strong> adalah sebuah platform portofolio digital dan pusat inovasi teknologi yang didirikan oleh pengembang independen bernama <strong>Mr.Rm19</strong> (juga dikenal dengan alias <em>Mister-RdanM19</em>). Berfokus pada pengembangan solusi digital berbasis web dan Python sejak awal tahun 2026.
+    </p>
+    <p style="font-size:0.85rem; color:var(--text-dim); line-height: 1.6; text-align: justify;">
+        Misi utama dari platform ini adalah menyediakan berbagai <em>utility tools</em> yang praktis, aplikasi web interaktif, serta dokumentasi literasi digital yang relevan dengan kebutuhan masyarakat modern di Indonesia. Setiap proyek yang dikembangkan dirancang dengan prinsip efisiensi, keamanan, dan kemudahan akses bagi pengguna tanpa dipungut biaya.
+    </p>
+    <p style="font-size:0.85rem; color:var(--text-dim); line-height: 1.6; text-align: justify;">
+        Hingga saat ini, Mr.Rm19 telah berhasil meluncurkan lebih dari 39 kategori proyek yang mencakup berbagai disiplin teknologi, mulai dari alat keamanan jaringan (Security), sistem otomasi data (Automation), hingga platform edukasi dan religi digital. Dedikasi Mr.Rm19 dalam dunia pemrograman bertujuan untuk terus berkontribusi dalam ekosistem pengembangan perangkat lunak sumber terbuka (Open Source) dan membantu mempercepat literasi digital nasional melalui karya-karya nyata yang dapat digunakan oleh siapa saja, di mana saja.
+    </p>
+</div>
+    </aside>
+</div>
+
+<footer>
+    <div style="max-width:1200px; margin:0 auto;">
+        <p>&copy; 2026 <span style="color:var(--gold);">Mr.Rm19 Portfolio & Technology</span>. All Rights Reserved.</p>
+        <div style="font-size:0.8rem; margin-top:20px;">
+            <a href="#" style="color:var(--text-dim); text-decoration:none; margin:0 10px;">Privacy Policy</a> | 
+            <a href="#" style="color:var(--text-dim); text-decoration:none; margin:0 10px;">Terms of Service</a> | 
+            <a href="#" style="color:var(--text-dim); text-decoration:none; margin:0 10px;">Contact</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
