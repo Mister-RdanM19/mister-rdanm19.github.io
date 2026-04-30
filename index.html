@@ -71,6 +71,29 @@
             text-align: left;
         }
 
+
+
+		.category-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #30363d;
+    transition: 0.3s;
+}
+
+.category-list li:hover {
+    padding-left: 10px;
+    color: var(--gold);
+}
+
+.category-icon {
+    margin-right: 12px;
+    font-size: 1.2rem;
+    width: 25px;
+    text-align: center;
+}
+
+
         .trending-bar {
             background: #1c2128;
             padding: 10px 20px;
@@ -154,6 +177,46 @@
             .main-layout { flex-direction: column; }
             aside { order: 2; }
         }
+		
+		/* Style Tambahan untuk Daftar Kategori */
+.category-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.category-list li {
+    border-bottom: 1px solid #30363d;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.3s;
+}
+
+.category-list li:last-child {
+    border-bottom: none;
+}
+
+.category-list a {
+    color: var(--text-dim);
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: 0.3s;
+}
+
+.category-list li:hover a {
+    color: var(--gold);
+    padding-left: 5px;
+}
+
+.cat-count {
+    background: #30363d;
+    color: var(--gold);
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
     </style>
 </head>
 <body>
@@ -508,7 +571,36 @@
     </div>
 
     <aside>
-
+<aside>
+<div class="sidebar-box">
+    <h4 style="color: var(--gold); margin-bottom: 15px;">KATEGORI BERITA</h4>
+    <ul class="category-list" style="list-style: none; padding: 0;">
+        <li>
+            <span class="category-icon">🇮🇩</span>
+            <a href="https://mister-rdanm19.github.io/ALL-NEWS/Nasional/" style="text-decoration: none; color: inherit;">Nasional</a>
+        </li>
+        <li>
+            <span class="category-icon">💻</span>
+            <a href="https://mister-rdanm19.github.io/ALL-NEWS/Teknologi/" style="text-decoration: none; color: inherit;">Teknologi</a>
+        </li>
+        <li>
+            <span class="category-icon">🛡️</span>
+            <a href="https://mister-rdanm19.github.io/ALL-NEWS/Keamanan-Siber/" style="text-decoration: none; color: inherit;">Keamanan Siber</a>
+        </li>
+        <li>
+            <span class="category-icon">📚</span>
+            <a href="https://mister-rdanm19.github.io/ALL-NEWS/Edukasi-Digital/" style="text-decoration: none; color: inherit;">Edukasi Digital</a>
+        </li>
+        <li>
+            <span class="category-icon">🚗</span>
+            <a href="https://mister-rdanm19.github.io/ALL-NEWS/Otomotif/" style="text-decoration: none; color: inherit;">Otomotif</a>
+        </li>
+        <li>
+            <span class="category-icon">📜</span>
+            <a href="https://mister-rdanm19.github.io/ALL-NEWS/Religi-dan-Sejarah/" style="text-decoration: none; color: inherit;">Religi & Sejarah</a>
+        </li>
+    </ul>
+</div>
 
         <div class="sidebar-box">
     <h4>TENTANG Mr.Rm19</h4>
