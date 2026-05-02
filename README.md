@@ -17,10 +17,8 @@ Jelajahi portofolio lengkap dan  kategori proyek unggulan saya di:
 
 ---
 
-### 📊 GitHub Stats
-![Mr.Rm19's Stats](https://github-readme-stats.vercel.app/api?username=Mister-RdanM19&show_icons=true&theme=tokyonight)
 
----
+
 
 **"Building the future, one commit at a time."**  
 📫 **Contact:** [ramdan19id@gmail.com]
